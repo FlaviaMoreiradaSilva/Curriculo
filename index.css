@@ -1,0 +1,84 @@
+img    {
+    border-radius: 50%;
+}
+
+#div1, #div2, #div8  {
+    text-align: center;
+}
+
+.bloco-curriculo {
+    font-family: "Courier New", Courier, monospace;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-left: 50px;
+}
+
+.bloco-centralizado {
+    font-family: "Courier New", Courier, monospace;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+li {
+    margin: 10px; 
+}
+
+/* Separação em blocos e coloração */
+body {
+    background: #0b381c;
+    font-size: 100%;
+}
+  
+main {
+    background: rgb(124, 168, 111);
+    margin: 20px 0;
+    padding: 20px;
+}
+  
+main div {
+    background: rgb(13, 26, 1);
+    margin: 0 auto;
+    color: white;
+    padding: 15px;
+    margin: 5px auto;
+}
+  
+main div:nth-child {
+    width: center;
+}
+
+/* Botoes dos links */
+a:link, a:visited {
+    background-color: #ee7525;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+a:hover, a:active {
+    background-color: rgb(85, 238, 24);
+}
+
+/* Tópicos em quadradinhos*/
+ul.a {
+    list-style-type: square;
+}
+
+/*tamanhos de fontes*/
+h1 {
+    font-size: 30px;
+}
+  
+h2 {
+    font-size: 25px;
+}
+  
+p {
+    font-size: 16px;
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Currículo Flávia"/>
+    <meta name="author" content="Flávia Moreira"/>
+    <style>
+        img    {
+        border-radius: 50%;
+        }
+
+        #div1, #div2, #div8  {
+            text-align: center;
+        }
+
+        .bloco-curriculo {
+            font-family: "Courier New", Courier, monospace;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-right: 100px;
+            margin-left: 100px;
+            padding-left: 50px;
+        }
+
+        .bloco-centralizado {
+            font-family: "Courier New", Courier, monospace;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-right: 100px;
+            margin-left: 100px;
+        }
+
+        li {
+            margin: 10px; 
+        }
+
+        /* Separação em blocos e coloração */
+        body {
+            background: #0b381c;
+            font-size: 100%;
+        }
+        
+        main {
+            background: rgb(124, 168, 111);
+            margin: 20px 0;
+            padding: 20px;
+        }
+        
+        main div {
+            background: rgb(13, 26, 1);
+            margin: 0 auto;
+            color: white;
+            padding: 15px;
+            margin: 5px auto;
+        }
+        
+        main div:nth-child {
+            width: center;
+        }
+
+        /* Botoes dos links */
+        a:link, a:visited {
+            background-color: #ee7525;
+            color: rgb(0, 0, 0);
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        a:hover, a:active {
+            background-color: rgb(85, 238, 24);
+        }
+
+        /* Tópicos em quadradinhos*/
+        ul.a {
+            list-style-type: square;
+        }
+
+        /*tamanhos de fontes*/
+        h1 {
+            font-size: 30px;
+        }
+        
+        h2 {
+            font-size: 25px;
+        }
+        
+        p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        
+        <div class="bloco-centralizado" id="div1">
+            <img src="Foto.jpeg" alt="Flávia" width="150" height="150">
+            <h1>FLÁVIA MOREIRA DA SILVA</h1>
+            <p>Brasileira, 23 anos, Piraquara - PR</p>
+        </div>
+
+        <div class="bloco-centralizado" id="div2">
+            <h2>Área de Atuação</h2>
+            <p>Computação</p>
+        </div>
+
+        <div class="bloco-curriculo" id="div3">
+            <h2>Perfil pessoal</h2>
+            <p>Estudante de Informática Biomédica com muita sede de conhecimento, aprendo rápido, sou atenta, comunicativa, analítica, organizada e determinada. Estou sempre pronta para novos desafios e novas experiências.</p>
+        </div>
+
+        <div class="bloco-curriculo" id="div4">
+            <h2>Áreas de conhecimento</h2>
+            <ul class="a">
+                <li> Pacote Office </li>
+                <li> Linguagem C </li>
+                <li> Básico em HTML, CSS, JavaScript, SQL </li>
+                <li> Linux, noção de Git</li>
+            </ul>
+        </div>
+
+        <div class="bloco-curriculo" id="div5">
+            <h2>Histórico de formação</h2>
+            <ul class="a">
+                <li> Bacharelado em Informática Biomédica (Universidade Federal do Paraná) - 2018 à 2023 </li>
+                <li> Ensino médio completo (Colégio Estadual do Paraná) </li>
+            </ul>
+        </div>
+
+        <div class="bloco-curriculo" id="div6">
+            <h2>Histórico profissional</h2>
+            <p><strong>Empresa:</strong> Herbarium Laboratório Botânico ltda</p>
+            <p><strong>Período:</strong> Julho/2017 à Novembro/2018</p>
+            <p><strong>Cargo:</strong> Aprendiz Administrativo do setor de Marketing</p>
+            <ul class="a">
+                <li>Conferir dados dos produtos/validade, montagem das embalagens, etiquetação, envio de pedidos do e-commerce</li>
+                <li>Responsável pelo agendamento, organização e realização de visitas pela empresa</li>
+                <li>Montagem e envio de kit apresentação para influencers</li>
+                <li>Organizar os produtos nas prateleiras</li>
+                <li>Outras tarefas pontuais para os designers</li>
+            </ul>
+        </div>
+
+        <div class="bloco-curriculo" id="div7">
+            <h2>Cursos complementares</h2>
+            <ul class="a">
+                <li> Inglês intermediário (Wizard) - 2012 à 2014 </li>
+                <li> Programa de Treinamento Hiring Coders - 2021 </li>
+            </ul>
+        </div>
+
+        <div class="bloco-centralizado" id="div8">
+            <h2>Contato</h2>
+            <p>Telefone: (41) 98787-6459 - Whatsapp e Telegram</p>
+            <p>E-mail: flaviamedmoreira@gmail.com </p>
+            
+            <p>
+                Acesse meu perfil do 
+                <a href="https://www.linkedin.com/in/fl%C3%A1via-moreira-766974144/" 
+                title="Linkedin" target="_blank"> linkedin</a> 
+                ou <a href="https://github.com/FlaviaMoreiradaSilva" 
+                class="classe" title="Github" target="_blank"> Github</a>!
+            </p>
+        
+        </div>
+
+    </main>
+
+</body>
+</html>
